@@ -1,8 +1,12 @@
+基于原作者的项目进行了一些额外的改动，在 PR 合并前我先将我的改动推送到 npm，便于使用。
+
+
+
 ## picgo-plugin-s3
 
-[![github-action](https://github.com/wayjam/picgo-plugin-s3/workflows/publish/badge.svg)](https://github.com/wayjam/picgo-plugin-s3/actions/workflows/publish.yaml)
-[![license](https://img.shields.io/github/license/wayjam/picgo-plugin-s3)](https://github.com/wayjam/picgo-plugin-s3/blob/main/LICENSE)
-[![npm](https://img.shields.io/npm/v/picgo-plugin-s3?style=flat)](https://www.npmjs.com/package/picgo-plugin-s3)
+[![github-action](https://github.com/CBAnother/picgo-plugin-s3/workflows/publish/badge.svg)](https://github.com/CBAnother/picgo-plugin-s3/actions/workflows/publish.yaml)
+[![license](https://img.shields.io/github/license/CBAnother/picgo-plugin-s3)](https://github.com/CBAnother/picgo-plugin-s3/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/picgo-plugin-s3-continued?style=flat)](https://www.npmjs.com/package/picgo-plugin-s3-continued)
 
 [PicGo](https://github.com/PicGo/PicGo-Core) Amazon S3 上传插件。
 
@@ -12,14 +16,14 @@
 
 ### 安装 (Installation)
 
-GUI 用户可直接在插件市场搜索 `s3` 并下载。
+GUI 用户可直接在插件市场搜索 `s3-continued` 并下载。
 
-Core 用户可执行 `picgo add s3` 命令安装。
+Core 用户可执行 `picgo add s3-continued` 命令安装。
 
 ### 配置 (Configuration)
 
 ```sh
-picgo set uploader s3
+picgo set uploader s3-continued
 ```
 
 | Key | 说明 | 示例 |
@@ -112,7 +116,7 @@ picgo set uploader s3
 
 ```json
 {
-  "picgo-plugin-s3": {
+  "picgo-plugin-s3-continued": {
     "accessKeyID": "xxx",
     "secretAccessKey": "xxxxx",
     "bucketName": "my-bucket",
@@ -151,4 +155,4 @@ npm run major
 
 ## 许可证 (License)
 
-Released under the [MIT License](https://github.com/wayjam/picgo-plugin-s3/blob/main/LICENSE).
+Released under the [MIT License](https://github.com/CBAnother/picgo-plugin-s3/blob/main/LICENSE).
