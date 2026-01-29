@@ -32,7 +32,7 @@ jobs:
 
       - name: Publish
         id: publish
-        if: github.repository == 'wayjam/picgo-plugin-s3'
+        if: github.repository == 'CBAnother/picgo-plugin-s3-continued'
         uses: JS-DevTools/npm-publish@v3
         with:
           registry: 'https://registry.npmjs.org'
